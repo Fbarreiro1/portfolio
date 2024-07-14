@@ -7,6 +7,8 @@
   padding: 0;
 }
 
+    
+  
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -171,9 +173,14 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   margin: auto 0;
+  
+}
+.profile-pic img {
+  margin-left: -5cm !important;
+  border-radius: 2rem;
 }
 
 .section__text {
@@ -276,15 +283,23 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+  margin-top: -5rem; /* Ajuste para subir el contenedor */
 }
 
 .about-containers,
 .about-details-container {
   display: flex;
 }
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
 
 .about-pic {
   border-radius: 2rem;
+  height: 350px;
+  width: 350px;
 }
 
 .arrow {
@@ -301,8 +316,16 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  color: black; /* Asegura que el texto dentro del contenedor sea negro */
+  font-weight: 900; /* Asegura que el texto sea negrita */
+  margin-bottom: 0.5rem; /* Ajuste para el texto */
 }
-
+.details-container p {
+  margin-bottom: 0.5rem; /* Ajuste para subir el texto un poco */
+  color: black; /* Asegura que el texto dentro del contenedor sea negro */
+  font-weight: 900; /* Asegura que el texto sea negrita */
+  margin-bottom: 0.5rem; /* Ajuste para el texto */
+}
 .section-container {
   gap: 4rem;
   height: 80%;
@@ -366,8 +389,12 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
+}
+.proyecto1 {
+  
+  height: 230px;
 }
 
 .project-title {
