@@ -354,6 +354,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  gap: 2rem;
 }
 
 .article-container {
@@ -391,6 +392,7 @@ article .icon {
   border-radius: 2rem;
   width: 100%;
   height: 100%;
+   object-fit: cover;
 }
 .proyecto1 {
   
@@ -405,6 +407,7 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+  margin: 0.5rem;
 }
 
 /* CONTACT */
