@@ -310,16 +310,15 @@ section {
 
 .details-container {
   padding: 1.5rem;
-  width: 500px; /* Ajusta el ancho según tus necesidades */
+  flex: 1;
   background: white;
-  border-radius: 1rem; /* Ajusta el radio de borde según tus necesidades */
-  border: 1px solid rgb(163, 163, 163);
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
   text-align: center;
-  color: black; /* Asegura que el texto sea negro */
-  font-weight: 900;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Alinea el contenido al centro horizontalmente */
+  color: black; /* Asegura que el texto dentro del contenedor sea negro */
+  font-weight: 900; /* Asegura que el texto sea negrita */
+  margin-bottom: 0.5rem; /* Ajuste para el texto */
 }
 .details-container p {
   margin-bottom: 0.5rem; /* Ajuste para subir el texto un poco */
@@ -327,8 +326,6 @@ section {
   font-weight: 900; /* Asegura que el texto sea negrita */
   margin-bottom: 0.5rem; /* Ajuste para el texto */
 }
-
-
 .section-container {
   gap: 4rem;
   height: 80%;
@@ -357,7 +354,6 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  gap: 2rem;
 }
 
 .article-container {
@@ -395,7 +391,6 @@ article .icon {
   border-radius: 2rem;
   width: 100%;
   height: 100%;
-   object-fit: cover;
 }
 .proyecto1 {
   
@@ -410,7 +405,6 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
-  margin: 0.5rem;
 }
 
 /* CONTACT */
