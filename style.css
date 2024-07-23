@@ -345,15 +345,21 @@ section {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
-  margin-bottom: 2rem;
+  font-size: 1.5em;
+  margin-bottom: 10px;
 }
 
 .experience-details-container {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-around; /* Adjust this to space the containers as desired */
+  flex-wrap: wrap; /* Allows the containers to wrap on smaller screens */
 }
 
+.details-container {
+  flex: 1; /* Each container will take equal space */
+  min-width: 250px; /* Minimum width to ensure they don't get too small */
+  margin: 10px; /* Adjust margin as needed */
+}
 .article-container {
   display: flex;
   text-align: initial;
@@ -373,7 +379,9 @@ article {
 article .icon {
   cursor: default;
 }
-
+.article-container img.icon {
+  margin-right: 10px;
+}
 /* PROJECTS SECTION */
 
 #projects {
