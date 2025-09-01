@@ -317,12 +317,14 @@ section {
   color: black; /* Asegura que el texto dentro del contenedor sea negro */
   font-weight: 900; /* Asegura que el texto sea negrita */
   margin-bottom: 0.5rem; /* Ajuste para el texto */
+  font-size: 1.2rem;
 }
 .details-container p {
   margin-bottom: 0.5rem; /* Ajuste para subir el texto un poco */
   color: black; /* Asegura que el texto dentro del contenedor sea negro */
   font-weight: 900; /* Asegura que el texto sea negrita */
   margin-bottom: 0.5rem; /* Ajuste para el texto */
+  font-size: 1.2rem;
 }
 .section-container {
   gap: 4rem;
@@ -362,6 +364,9 @@ section {
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
+}
+.article-container h3 {
+  white-space: nowrap;
 }
 
 article {
